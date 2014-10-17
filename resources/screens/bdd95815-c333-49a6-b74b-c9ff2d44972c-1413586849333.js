@@ -34,7 +34,7 @@ jQuery("#simulation")
                         "padding-left": "2px"
                       },
                       "expressions": {
-                        "width": "Math.max(169 - 1 - 1 - 2 - 2, 0) + 'px'",
+                        "width": "Math.max(108 - 1 - 1 - 2 - 2, 0) + 'px'",
                         "height": "Math.max(29 - 1 - 1 - 2 - 2, 0) + 'px'"
                       }
                     }
@@ -60,7 +60,7 @@ jQuery("#simulation")
                         "padding-left": "2px"
                       },
                       "expressions-ie": {
-                        "width": "Math.max(169 - 1 - 1 - 2 - 2, 0) + 'px'",
+                        "width": "Math.max(108 - 1 - 1 - 2 - 2, 0) + 'px'",
                         "height": "Math.max(29 - 1 - 1 - 2 - 2, 0) + 'px'"
                       }
                     }
@@ -103,7 +103,7 @@ jQuery("#simulation")
                         "padding-left": "2px"
                       },
                       "expressions": {
-                        "width": "Math.max(169 - 1 - 1 - 2 - 2, 0) + 'px'",
+                        "width": "Math.max(97 - 1 - 1 - 2 - 2, 0) + 'px'",
                         "height": "Math.max(29 - 1 - 1 - 2 - 2, 0) + 'px'"
                       }
                     }
@@ -129,7 +129,7 @@ jQuery("#simulation")
                         "padding-left": "2px"
                       },
                       "expressions-ie": {
-                        "width": "Math.max(169 - 1 - 1 - 2 - 2, 0) + 'px'",
+                        "width": "Math.max(97 - 1 - 1 - 2 - 2, 0) + 'px'",
                         "height": "Math.max(29 - 1 - 1 - 2 - 2, 0) + 'px'"
                       }
                     }
@@ -179,7 +179,7 @@ jQuery("#simulation")
                         "padding-left": "2px"
                       },
                       "expressions": {
-                        "width": "Math.max(169 - 1 - 1 - 2 - 2, 0) + 'px'",
+                        "width": "Math.max(108 - 1 - 1 - 2 - 2, 0) + 'px'",
                         "height": "Math.max(29 - 1 - 1 - 2 - 2, 0) + 'px'"
                       }
                     }
@@ -205,7 +205,7 @@ jQuery("#simulation")
                         "padding-left": "2px"
                       },
                       "expressions-ie": {
-                        "width": "Math.max(169 - 1 - 1 - 2 - 2, 0) + 'px'",
+                        "width": "Math.max(108 - 1 - 1 - 2 - 2, 0) + 'px'",
                         "height": "Math.max(29 - 1 - 1 - 2 - 2, 0) + 'px'"
                       }
                     }
@@ -248,7 +248,7 @@ jQuery("#simulation")
                         "padding-left": "2px"
                       },
                       "expressions": {
-                        "width": "Math.max(169 - 1 - 1 - 2 - 2, 0) + 'px'",
+                        "width": "Math.max(97 - 1 - 1 - 2 - 2, 0) + 'px'",
                         "height": "Math.max(29 - 1 - 1 - 2 - 2, 0) + 'px'"
                       }
                     }
@@ -274,7 +274,7 @@ jQuery("#simulation")
                         "padding-left": "2px"
                       },
                       "expressions-ie": {
-                        "width": "Math.max(169 - 1 - 1 - 2 - 2, 0) + 'px'",
+                        "width": "Math.max(97 - 1 - 1 - 2 - 2, 0) + 'px'",
                         "height": "Math.max(29 - 1 - 1 - 2 - 2, 0) + 'px'"
                       }
                     }
