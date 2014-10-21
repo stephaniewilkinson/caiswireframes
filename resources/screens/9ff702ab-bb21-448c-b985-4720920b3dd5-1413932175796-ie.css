@@ -113,21 +113,6 @@
   height: 15px;
   -ms-transform: rotate(0.0deg);
 }
-#s-9ff702ab-bb21-448c-b985-4720920b3dd5 #s-Button_5 {
-  border-top-width: 1px;
-  border-top-style: solid;
-  border-top-color: #CDCDCD;
-  border-right-width: 1px;
-  border-right-style: solid;
-  border-right-color: #CDCDCD;
-  border-bottom-width: 1px;
-  border-bottom-style: solid;
-  border-bottom-color: #CDCDCD;
-  border-left-width: 1px;
-  border-left-style: solid;
-  border-left-color: #CDCDCD;
-  -ms-transform: rotate(0.0deg);
-}
 #s-9ff702ab-bb21-448c-b985-4720920b3dd5 #s-Button_6 {
   border-top-width: 1px;
   border-top-style: solid;
@@ -294,58 +279,6 @@
   height: 7px;
   -ms-transform: rotate(0.0deg);
 }
-#s-9ff702ab-bb21-448c-b985-4720920b3dd5 #s-Label_25 {
-  border-top-width: 1px;
-  border-top-style: solid;
-  border-top-color: #D4D4D4;
-  border-right-width: 1px;
-  border-right-style: solid;
-  border-right-color: #D4D4D4;
-  border-bottom-width: 1px;
-  border-bottom-style: solid;
-  border-bottom-color: #D4D4D4;
-  border-left-width: 1px;
-  border-left-style: solid;
-  border-left-color: #D4D4D4;
-  border-radius: 5px 5px 5px 5px;
-  padding-top: 3px;
-  padding-right: 3px;
-  padding-bottom: 3px;
-  padding-left: 20px;
-  width: 840px;
-  height: 34px;
-  -ms-transform: rotate(0.0deg);
-}
-#s-9ff702ab-bb21-448c-b985-4720920b3dd5 #s-Label_26 {
-  border-top-width: 1px;
-  border-top-style: solid;
-  border-top-color: #D4D4D4;
-  border-right-width: 1px;
-  border-right-style: solid;
-  border-right-color: #D4D4D4;
-  border-bottom-width: 1px;
-  border-bottom-style: solid;
-  border-bottom-color: #D4D4D4;
-  border-left-width: 1px;
-  border-left-style: solid;
-  border-left-color: #D4D4D4;
-  -ms-transform: rotate(0.0deg);
-}
-#s-9ff702ab-bb21-448c-b985-4720920b3dd5 #s-Label_27 {
-  -ms-transform: rotate(0.0deg);
-}
-#s-9ff702ab-bb21-448c-b985-4720920b3dd5 #s-Label_28 {
-  -ms-transform: rotate(0.0deg);
-}
-#s-9ff702ab-bb21-448c-b985-4720920b3dd5 #s-Label_29 {
-  -ms-transform: rotate(0.0deg);
-}
-#s-9ff702ab-bb21-448c-b985-4720920b3dd5 #s-Label_30 {
-  -ms-transform: rotate(0.0deg);
-}
-#s-9ff702ab-bb21-448c-b985-4720920b3dd5 #s-Label_31 {
-  -ms-transform: rotate(0.0deg);
-}
 #s-9ff702ab-bb21-448c-b985-4720920b3dd5 #s-Button_9 {
   border-top-width: 1px;
   border-top-style: solid;
@@ -452,59 +385,6 @@
   height: 15px;
   -ms-transform: rotate(0.0deg);
 }
-#s-9ff702ab-bb21-448c-b985-4720920b3dd5 #s-Button_15 {
-  border-top-width: 1px;
-  border-top-style: solid;
-  border-top-color: #CDCDCD;
-  border-right-width: 1px;
-  border-right-style: solid;
-  border-right-color: #CDCDCD;
-  border-bottom-width: 1px;
-  border-bottom-style: solid;
-  border-bottom-color: #CDCDCD;
-  border-left-width: 1px;
-  border-left-style: solid;
-  border-left-color: #CDCDCD;
-  -ms-transform: rotate(0.0deg);
-}
-#s-9ff702ab-bb21-448c-b985-4720920b3dd5 #s-Button_21 {
-  border-top-width: 1px;
-  border-top-style: solid;
-  border-top-color: #CDCDCD;
-  border-right-width: 1px;
-  border-right-style: solid;
-  border-right-color: #CDCDCD;
-  border-bottom-width: 1px;
-  border-bottom-style: solid;
-  border-bottom-color: #CDCDCD;
-  border-radius: 0px 3px 3px 0px;
-  padding-top: 2px;
-  padding-right: 2px;
-  padding-bottom: 2px;
-  padding-left: 0px;
-  width: 88px;
-  height: 15px;
-  -ms-transform: rotate(0.0deg);
-}
-#s-9ff702ab-bb21-448c-b985-4720920b3dd5 #s-Button_22 {
-  border-top-width: 1px;
-  border-top-style: solid;
-  border-top-color: #CDCDCD;
-  border-bottom-width: 1px;
-  border-bottom-style: solid;
-  border-bottom-color: #CDCDCD;
-  border-left-width: 1px;
-  border-left-style: solid;
-  border-left-color: #CDCDCD;
-  border-radius: 3px 0px 0px 3px;
-  padding-top: 2px;
-  padding-right: 0px;
-  padding-bottom: 2px;
-  padding-left: 2px;
-  width: 74px;
-  height: 15px;
-  -ms-transform: rotate(0.0deg);
-}
 #s-9ff702ab-bb21-448c-b985-4720920b3dd5 #s-Button_23 {
   border-top-width: 2px;
   border-top-style: solid;
@@ -525,6 +405,88 @@
   padding-left: 3px;
   width: 159px;
   height: 21px;
+  -ms-transform: rotate(0.0deg);
+}
+#s-9ff702ab-bb21-448c-b985-4720920b3dd5 #s-Table_2 {
+  border-collapse: separate;
+}
+#s-9ff702ab-bb21-448c-b985-4720920b3dd5 #s-Rich_text_2 {
+  -ms-transform: rotate(0.0deg);
+}
+#s-9ff702ab-bb21-448c-b985-4720920b3dd5 #s-Rich_text_3 {
+  -ms-transform: rotate(0.0deg);
+}
+#s-9ff702ab-bb21-448c-b985-4720920b3dd5 #s-Label_3 {
+  -ms-transform: rotate(0.0deg);
+}
+#s-9ff702ab-bb21-448c-b985-4720920b3dd5 #s-Label_25 {
+  border-top-width: 1px;
+  border-top-style: solid;
+  border-top-color: #D4D4D4;
+  border-right-width: 1px;
+  border-right-style: solid;
+  border-right-color: #D4D4D4;
+  border-bottom-width: 1px;
+  border-bottom-style: solid;
+  border-bottom-color: #D4D4D4;
+  border-left-width: 1px;
+  border-left-style: solid;
+  border-left-color: #D4D4D4;
+  border-radius: 5px 5px 5px 5px;
+  padding-top: 3px;
+  padding-right: 3px;
+  padding-bottom: 3px;
+  padding-left: 20px;
+  width: 840px;
+  height: 34px;
+  -ms-transform: rotate(0.0deg);
+}
+#s-9ff702ab-bb21-448c-b985-4720920b3dd5 #s-Label_26 {
+  border-top-width: 1px;
+  border-top-style: solid;
+  border-top-color: #D4D4D4;
+  border-right-width: 1px;
+  border-right-style: solid;
+  border-right-color: #D4D4D4;
+  border-bottom-width: 1px;
+  border-bottom-style: solid;
+  border-bottom-color: #D4D4D4;
+  border-left-width: 1px;
+  border-left-style: solid;
+  border-left-color: #D4D4D4;
+  -ms-transform: rotate(0.0deg);
+}
+#s-9ff702ab-bb21-448c-b985-4720920b3dd5 #s-Label_27 {
+  -ms-transform: rotate(0.0deg);
+}
+#s-9ff702ab-bb21-448c-b985-4720920b3dd5 #s-Label_28 {
+  -ms-transform: rotate(0.0deg);
+}
+#s-9ff702ab-bb21-448c-b985-4720920b3dd5 #s-Label_29 {
+  -ms-transform: rotate(0.0deg);
+}
+#s-9ff702ab-bb21-448c-b985-4720920b3dd5 #s-Label_30 {
+  -ms-transform: rotate(0.0deg);
+}
+#s-9ff702ab-bb21-448c-b985-4720920b3dd5 #s-Label_31 {
+  -ms-transform: rotate(0.0deg);
+}
+#s-9ff702ab-bb21-448c-b985-4720920b3dd5 #s-Label_4 {
+  -ms-transform: rotate(0.0deg);
+}
+#s-9ff702ab-bb21-448c-b985-4720920b3dd5 #s-Label_5 {
+  -ms-transform: rotate(0.0deg);
+}
+#s-9ff702ab-bb21-448c-b985-4720920b3dd5 #s-Label_6 {
+  -ms-transform: rotate(0.0deg);
+}
+#s-9ff702ab-bb21-448c-b985-4720920b3dd5 #s-Label_7 {
+  -ms-transform: rotate(0.0deg);
+}
+#s-9ff702ab-bb21-448c-b985-4720920b3dd5 #s-Label_8 {
+  -ms-transform: rotate(0.0deg);
+}
+#s-9ff702ab-bb21-448c-b985-4720920b3dd5 #s-Label_9 {
   -ms-transform: rotate(0.0deg);
 }
 #s-9ff702ab-bb21-448c-b985-4720920b3dd5 > #loadMark {
