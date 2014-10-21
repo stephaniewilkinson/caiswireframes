@@ -51,7 +51,6 @@
     left: 50px;
     position: absolute;
     top: 50px;
-    background: url("./images/jimsprite.png");
 }
 
 #sidepanel #user-config {
@@ -99,7 +98,6 @@
 .groupComments .root .comment .comment-content { padding:15px 15px 10px; }
 .groupComments .root:last-child { border-bottom: 0 none;}
 .groupComments .root.closed { background-color: #FFFFFF;}
-.groupComments .root.closed .icon { background-position: -34px -23px; }
 .groupComments .root.closed .attachment:hover { color: #666666; }
 .groupComments .root.closed .text { text-overflow: ellipsis; -o-text-overflow: ellipsis; -webkit-text-overflow: ellipsis; overflow: hidden;}
 /*.groupComments .root.closed.unread .text { font-weight: bold; }*/
@@ -127,7 +125,7 @@
 /* start comment fields */
 .groupComments { overflow-y: auto; font-family:'OpenSans-Regular';}
 .groupComments .author { font-size:14px; font-family:'OpenSans-SemiBold'; color:#21C0C0; display:inline-block; max-width:158px; overflow:hidden; vertical-align:bottom; white-space:nowrap;}
-.groupComments .delete, .groupComments .edit { background: url("./images/jimsprite.png"); font-size:8px; color:#535353; display:inline-block; margin-left:6px; vertical-align:middle; cursor:pointer;}
+.groupComments .delete, .groupComments .edit { font-size:8px; color:#535353; display:inline-block; margin-left:6px; vertical-align:middle; cursor:pointer;}
 .groupComments .actions, .groupComments .editormode .actions { color: #7B7979; float: left; width:180px; font-size:11px; margin-left:-48px; position:relative;}
 .groupComments .editormode .actions{width:236px;}
 .groupComments .actions .reply a{ vertical-align:top;}
@@ -137,9 +135,8 @@
 .groupComments .text { margin-bottom: 10px; font-size:12px; word-wrap: break-word;}
 .groupComments .annotation {padding: 3px; width: 181px; max-width:181px; min-width:181px; min-height:40px; height:65px; color: #707070; font-family: 'OpenSans-Regular'; font-size: 11px; border:0 none; margin-top:5px;}
 .groupComments .replier .annotation {margin-left:10px; margin-top:0px;}
-.groupComments .viewmode .filename { display:inline-block; text-decoration: none; text-overflow:ellipsis; white-space: nowrap; overflow:hidden; color:#21C0C0; font-size:11px; font-family:'OpenSans-Regular'; cursor:pointer !important;}
+.groupComments .viewmode .filename { vertical-align:middle; display:inline-block; text-decoration: none; text-overflow:ellipsis; white-space: nowrap; overflow:hidden; color:#21C0C0; font-size:11px; font-family:'OpenSans-Regular'; cursor:pointer !important;}
 .groupComments .actions .filename { text-decoration: none; text-overflow:ellipsis; white-space: nowrap; overflow:hidden; width: 85px; color:#21C0C0; font-size:11px; font-family:'OpenSans-Regular'; }
-.groupComments .viewmode .attachment-img { margin-bottom:8px;}
 .groupComments .viewmode .attachment-wrap{ display: block; margin-bottom: 10px; margin-left: 2px; overflow: hidden; white-space: nowrap;} 
 .groupComments .attachment:hover { color: #c6c6c6; }
 .groupComments .root .attachment {cursor:pointer;}
@@ -155,13 +152,13 @@
 .expand-btn{cursor: pointer; color:#738F8F; font-size:11px; float:right; display:none; font-family:'OpenSans-SemiBold';}
 .groupComments .hasReplies .expand-btn {display:inline;}
 .groupComments .root .replier{ background-color:#21C0C0; position:relative;}
-.groupComments .actions .reply-img{background: url("./images/jimsprite.png"); margin-right:5px; margin-top:1px; display:inline-block;}
+.groupComments .actions .reply-img{ margin-right:5px; margin-top:1px; display:inline-block;}
 .groupComments .actions .reply {display: inline-block; vertical-align: middle;}
-.groupComments .actions .total-img{background: url("./images/jimsprite.png"); margin-right:5px; margin-top:-1px; display:inline-block; vertical-align:middle;}
+.groupComments .actions .total-img{ margin-right:5px; margin-top:-1px; display:inline-block; vertical-align:middle;}
 .groupComments .actions .total{margin-right:8px;}
-.groupComments .expand-btn-img{background: url("./images/jimsprite.png"); margin-right:5px; display:inline-block; vertical-align:middle;}
+.groupComments .expand-btn-img{margin-right:5px; display:inline-block; vertical-align:middle;}
 .groupComments .expand-btn-text{display:inline-block; vertical-align:middle;}
-.groupComments .warning{background: url("./images/jimsprite.png"); margin-right:5px; display:inline-block; vertical-align:middle; margin-top:-3px;}
+.groupComments .warning{ margin-right:5px; display:inline-block; vertical-align:middle; margin-top:-3px;}
 
 .groupComments .user-comment-img{
     width:40px;
@@ -185,7 +182,6 @@
     left: 13px;
     position: absolute;
     top: 48px;
-    background: url("./images/jimsprite.png");
     cursor:pointer !important;
 }
 
@@ -211,7 +207,6 @@ form.attachment .file { position: absolute; top: 0; left: 0; height: 13px; opaci
 .groupComments form.attachment .file { left: -10px\9; /* IE only */ }
 #dialog form.attachment .file { left: -20px\9; /* IE only */ }
 form.attachment .delete_attach{
-    background: url("./images/jimsprite.png");
     display: none;
     vertical-align: middle;
     cursor:pointer;
@@ -245,8 +240,7 @@ form.attachment.attachment-set .delete_attach{
 .editing #dialog-cancel{color:#21C0C0;}
 #dialog-cancel {width:50px;}
 #dialog-save { border: 0 none; font-family: 'OpenSans-SemiBold';}
-.attachment-img { background: url("./images/jimsprite.png"); display:inline-block; vertical-align:middle; margin-right:5px;}
-.viewmode .attachment-img{background-position:-158px -70px !important;width:13px;height:16px;}
+.attachment-img { display:inline-block; vertical-align:middle; margin-right:5px;}
 
 /* start messages */
 .message { font-family: 'OpenSans-Regular'; clear: both; color: #ffffff; padding: 3px 10px; }
@@ -275,7 +269,6 @@ form.attachment.attachment-set .delete_attach{
     text-align:center;
     vertical-align:middle;
     cursor:pointer;
-    background: url("./images/jimsprite.png");
 }
 .comment-balloon input{
     display:none;
@@ -348,18 +341,63 @@ form.attachment.attachment-set .delete_attach{
 }
 
 /*SPRITES*/
+#sidepanel #user-config,
+.groupComments .delete, 
+.groupComments .edit,
+.groupComments .actions .reply-img,
+.groupComments .actions .total-img,
+.groupComments .expand-btn-img,
+.groupComments .warning,
+.groupComments .user-comment-img-add,
+form.attachment .delete_attach,
+.attachment-img,
+.groupComments .root.closed .icon,
+.comment-balloon
+{
+    background: url("./images/jimsprite.png");
+}
+
+@media
+only screen and (-webkit-min-device-pixel-ratio: 2),
+only screen and (   min--moz-device-pixel-ratio: 2),
+only screen and (     -o-min-device-pixel-ratio: 2/1),
+only screen and (        min-device-pixel-ratio: 2),
+only screen and (                min-resolution: 192dpi),
+only screen and (                min-resolution: 2dppx) 
+{ 
+	#sidepanel #user-config,
+	.groupComments .delete, 
+	.groupComments .edit,
+	.groupComments .actions .reply-img,
+	.groupComments .actions .total-img,
+	.groupComments .expand-btn-img,
+	.groupComments .warning,
+	.groupComments .user-comment-img-add,
+	form.attachment .delete_attach,
+	.attachment-img,
+	.groupComments .root.closed .icon,
+	.comment-balloon
+	{
+	    background: url("./images/jimsprite@2x.png");
+	    background-size:256px 512px;
+    }
+}
+
+
 #sidepanel #user-config.menu_edituser{background-position:-69px -34px;width:12px;height:12px;}
 .comment-balloon.bullet_one{background-position:-15px 0px;width:35px;height:34px;}
 .comment-balloon.bullet_two{background-position:-113px 0px;width:51px;height:34px;}
-.comment-balloon.bullet_tree{background-position:-50px 0px;width:63px;height:34px;}
+.comment-balloon.bullet_three{background-position:-50px 0px;width:63px;height:34px;}
 .groupComments .actions .reply-img{background-position:-96px -70px;width:16px;height:13px;}
 .groupComments .actions .comments{background-position:-176px 0px;width:11px;height:12px;}
 .groupComments .collapse{background-position:-164px 0px;width:12px;height:8px;}
 .groupComments .expand{background-position:-215px 0px;width:12px;height:8px;}
+.groupComments .root.closed .icon { background-position: -34px -23px; }
 .attachment-img{background-position:-7px 0px !important;width:8px;height:18px;}
 .delete_attach{background-position:-187px 0px !important;width:8px;height:7px;}
 .delete_topic{background-position:-195px 0px !important;width:9px;height:8px;}
 .edit_topic{background-position:-204px 0px !important;width:11px;height:10px;}
 .warning{background-position:-126px -70px !important;width:16px;height:15px;}
 .user_picture_more{background-position:-171px -70px !important;width:12px;height:12px;}
+.viewmode .attachment-img{background-position:-158px -70px !important;width:13px;height:16px;}
 /*END SPRITES*/

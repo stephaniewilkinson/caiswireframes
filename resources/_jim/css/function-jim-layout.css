@@ -1,3 +1,47 @@
+.button-icon,
+#user-dialog .warning,
+#user-dialog #close-button,
+#comments-page-counter-img,
+#comments-switch-img,
+#infoContent #toggle-panel-btn span{
+    background: url("./images/jimsprite.png");
+}
+.styled-select { 
+    background:url("../../../resources/_jim/images/sidepanel/arrow.png") no-repeat right;
+}
+.highlight span.customSelect {
+       background:url("../../../resources/_jim/images/sidepanel/arrow.png") no-repeat center right;
+}
+
+@media
+only screen and (-webkit-min-device-pixel-ratio: 2),
+only screen and (   min--moz-device-pixel-ratio: 2),
+only screen and (     -o-min-device-pixel-ratio: 2/1),
+only screen and (        min-device-pixel-ratio: 2),
+only screen and (                min-resolution: 192dpi),
+only screen and (                min-resolution: 2dppx) 
+{ 
+	.button-icon,
+	#user-dialog .warning,
+	#user-dialog #close-button,
+	#comments-page-counter-img,
+	#comments-switch-img,
+	#infoContent #toggle-panel-btn span{
+	    background: url("./images/jimsprite@2x.png");
+	    background-size:256px 512px;
+	}
+	
+	.styled-select { 
+	   background:url("../../../resources/_jim/images/sidepanel/arrow@2x.png") no-repeat right;
+	   background-size:20px 16px;
+	}
+	
+	.highlight span.customSelect {
+	   background:url("../../../resources/_jim/images/sidepanel/arrow@2x.png") no-repeat center right;
+       background-size:20px 16px;
+	}
+}
+
 /* start sidepanel */
 #sidepanel { right:0px; background-color: #2D2D2D; height: 100%; width: 0px; font-size: 13px; font-family: 'OpenSans-Regular'; color: #707070; float:right; overflow:auto;}
 #sidepanel .title { color: #e86630; text-transform: capitalize; font-family:'OpenSans-SemiBold'; font-size: 13px; margin-left: 3px; margin-top:10px; }
@@ -11,7 +55,7 @@
 #sidepanel #info { display:block; height:30px; margin-bottom:10px; margin-top:6px; }
 #sidepanel #info .line { background-color:#e6e6e6; width:1px; height:37px; margin-right: 6px; float:left; }
 #sidepanel #info li span { padding-left: 4px; }
-.styled-select { background:url("../../../resources/_jim/images/sidepanel/arrow.png") no-repeat right; border:1px solid #D5D5D5; border-radius:2px; float:left; overflow:hidden; background-color:#D5D5D5; }
+.styled-select {border:1px solid #D5D5D5; border-radius:2px; float:left; overflow:hidden; background-color:#D5D5D5; }
 #sidepanel .styled-select { width:100px; position:relative; height:30px; }
 #sidepanel select:focus { outline:none; }
 
@@ -118,10 +162,6 @@
     max-height:45px;
     max-width:250px;
     margin-left:10px;
-}
-
-#infoContent #toggle-panel-btn span{
-    background: url("./images/jimsprite.png");
 }
 
 #infoContent #toggle-panel-btn {
@@ -270,7 +310,6 @@ width: 170px;
 font-size: 12px; 
 color: #707070; 
 font-family:'OpenSans-Regular';
-background:url("../../../resources/_jim/images/sidepanel/arrow.png") no-repeat center right;
 height:17px;
 white-space:nowrap;
 }
@@ -291,14 +330,12 @@ display:inline-block;
 vertical-align:top;
 margin-top:-5px;
 margin-left:4px;
-background: url("./images/jimsprite.png");
 }
 
 #comments-page-counter-img{
     display:none;
     vertical-align:top;
     margin-right:5px;
-    background: url("./images/jimsprite.png");
     text-align:center;
 }
 
@@ -355,7 +392,6 @@ background: url("./images/jimsprite.png");
     margin-left:58px;
     height:100%;
     background-position:0px -72px;
-    
 }
 
 .button-icon{
@@ -363,13 +399,11 @@ background: url("./images/jimsprite.png");
     margin-right:6px;
     float:left;
     vertical-align:middle;
-    background: url("./images/jimsprite.png");
 }
 
 #user-dialog { position: absolute; top: 30%; left: 34%; background-color: #FFFFFF; box-shadow: 0 0 15px rgba(0, 0, 0, 0.5), 0 1px 2px rgba(0, 0, 0, 0.05); width: 280px; min-height:400px; color: #606060; font-family: 'OpenSans-Regular'; font-size:12px; }
 #user-dialog #content { padding: 20px 30px; overflow:hidden; text-align:center; margin-top:15px;}
 #user-dialog #close-button{
-    background: url("./images/jimsprite.png");
     margin:15px;
     right:0px;
     position:absolute;
@@ -468,7 +502,7 @@ background: url("./images/jimsprite.png");
 }
 #user-dialog .button { color: #FFFFFF; background-color:#F23E41; width:100%; height:35px; margin: 10px auto; display: block; cursor:pointer;}
 #user-dialog #dialog-save { border: 0 none; font-family: 'OpenSans-SemiBold';}
-#user-dialog .warning{background: url("./images/jimsprite.png"); margin-right:5px; display:inline-block; vertical-align:middle; margin-top:-3px;}
+#user-dialog .warning{margin-right:5px; display:inline-block; vertical-align:middle; margin-top:-3px;}
 
 .arrow{background-position:0px 0px;width:7px;height:4px;}
 .gestures{background-position:0px -34px;width:16px;height:17px;}
