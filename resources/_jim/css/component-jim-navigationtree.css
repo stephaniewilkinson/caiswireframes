@@ -1,5 +1,26 @@
+#navigationtree ins,
+#navigationtree .menu_dotred
+{
+    background: url("./images/jimsprite.png");
+}
+
+@media
+only screen and (-webkit-min-device-pixel-ratio: 2),
+only screen and (   min--moz-device-pixel-ratio: 2),
+only screen and (     -o-min-device-pixel-ratio: 2/1),
+only screen and (        min-device-pixel-ratio: 2),
+only screen and (                min-resolution: 192dpi),
+only screen and (                min-resolution: 2dppx) 
+{
+	#navigationtree ins,
+	#navigationtree .menu_dotred
+	{
+	    background: url("./images/jimsprite@2x.png");
+	    background-size:256px 512px;
+	}
+}
+
 #navigationtree { list-style-type: none; height: 100%; font-family: 'OpenSans-Regular'; }
-#navigationtree ins { background: url("./images/jimsprite.png"); }
 #navigationtree li { background-position: -70px 0; background-repeat: repeat-y; line-height: 25px; min-height: 20px; white-space: nowrap; margin-left: 18px; }
 #navigationtree > li { margin-left: 0; }
 #navigationtree ins { display: inline-block; text-decoration: none; margin-right:5px; vertical-align:middle;}
@@ -29,7 +50,6 @@
 }
 
 #navigationtree .menu_dotred{
-background: url("./images/jimsprite.png");
 background-position:-61px -34px;width:8px;height:8px;
 margin-left: 7px;
 display:none;

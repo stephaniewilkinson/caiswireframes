@@ -10,6 +10,7 @@
     "2590d4a1-57b9-4572-a1c4-0357b9884b15": "01 Schools Table",
     "bdd95815-c333-49a6-b74b-c9ff2d44972c": "01 Landing page",
     "2ece1654-e2c5-496d-941f-c9809291838c": "03 School Profile",
+    "ff23f7c2-4ca8-481d-b2ef-679abc559708": "08 Reports",
     "4a8e607a-c30a-40b4-bde9-3fd96f302a5d": "03 Navbar for Visiting Committee Participants",
     "39d46773-1759-4af0-b68e-790393d252a8": "07 Progress",
     "bc227f88-44cf-4d19-b5fd-698ef5b63f01": "05c Resources - Glossary",
