@@ -1,5 +1,6 @@
 (function(window, undefined) {
   var dictionary = {
+    "56f09c81-e5b0-49d6-862e-91ffac37e3b3": "05 Users",
     "5ffefb19-ac9a-4856-a233-fb7f3d7eb82e": "06 Comments",
     "d12245cc-1680-458d-89dd-4f0d7fb22724": "02 Navbar for Self Study Participants",
     "0bad1dff-26b8-4d27-9bac-cc04aa8e8cd0": "05b Resources - Examples",
